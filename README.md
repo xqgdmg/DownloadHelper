@@ -1,3 +1,9 @@
+## 导包问题
+Error:No such property: FOR_RUNTIME for class: org.gradle.api.attributes.Usage<br/>
+这是将库发布到bintray的帮助器。<br/>
+项目中导入的一个module使用了bintray插件导致的<br/>
+在module的build.gradle文件中将bintray相关代码注释掉就可以了<br/>
+
 ## 功能特性
 
 + 断点续传
